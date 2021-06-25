@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>student ID card Generator</title>
+    <script src="https://kit.fontawesome.com/573e62a9c5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form id="form" action="#" method="POST">
+        <h2 class="title">
+            Enter your requirements :
+        </h2>
+        <div class="field">
+            <i class="fas fa-user"></i>
+            <input type="text" required id="name" class="fields-input" name="name" placeholder="Student Name">
+        </div>
+        <div class="field">
+            <i class="fas fa-user-graduate"></i>
+            <input type="text" required id="class" class="fields-input" name="class" placeholder="Student Grade">
+        </div>
+        <div class="field">
+            <i class="fas fa-address-card"></i>
+            <input type="text" required id="address" class="fields-input" name="name" placeholder="Student Full Address">
+        </div>
+        <div class="field">
+            <i class="fas fa-phone-alt"></i>
+            <input type="number" required id="contact" class="fields-input" name="name" placeholder="Contact No ">
+        </div>
+        <div class="field">
+            <i class="fas fa-user-secret"></i>
+            <input type="text" required id="parentsName" class="fields-input" name="name" placeholder="Parents Name">
+        </div>
+        <div class="field">
+            <i class="fas fa-mail-bulk"></i>
+            <input type="email" required id="email" class="fields-input" name="name" placeholder="Student Email">
+        </div>
+        <div class="field">
+            <i class="fas fa-calendar-alt"></i>
+            <input type="date" required id="dob" class="fields-input" name="dob" placeholder="Date f Birth">
+        </div>
+        <div class="field bloodgroup">
+            <i class="fas fa-briefcase-medical"></i>
+            <label for="bloodgroup" required class="bloodgroup-select">Select your bloodgroup</label>
+            <select class="bloodgroup-selection" name="bloodgroup" id="blood">
+                <option value="A+">A+</option>
+                <option value="B+">B+</option>
+                <option value="O+">O+</option>
+                <option value="AB+">AB+</option>
+                <option value="A-">A-</option>
+                <option value="B-">B-</option>
+                <option value="O-">O-</option>
+                <option value="AB-">AB-</option>
+            </select>
+        </div>
+        <div class="field image-box">
+            <label for="image" class="alt-img">Choose Photo</label>
+            <i class="fas fa-image altimage"></i>
+            <input type="file" accept="image/*" required id="image" class="fields-input" name="image" placeholder="Upload Image">
+        </div>
+        <div class="field">
+            <button class="submit" name="submit" id="submit">Submit</button>
+        </div>
+
+
+    </form>
+
+    <div class="secondBox">
+        <div id="mainBox" class="idCard">
+            <div class="title-texts">
+                <h5 class="placename">
+                    New,Baneshwor- Kathmandu
+                </h5>
+                <h2>Premier College</h2>
+                <h4>An initative of CG-Holdings</h4>
+                <p class="idcard">Student ID card</p>
+            </div>
+            <div class="imageContainer">
+                <img src="./nees.png.jpg" class="img" id="card-image" alt="">
+            </div>
+            <div class="student-info">
+                <div class="std-fields">
+                    <p class="stdfields">Name : <span id="spanname">Neeschal Dahal</span></p>
+                    <div class="row-field">
+                        <p class="stdfields">Grade : <span id="spangrade">11</span></p>
+                        <p class="stdfields">B-Group : <span id="sbloodgroup">AB+</span></p>
+
+                    </div>
+                    <p class="stdfields">Address: <span id="spanaddress">New-baneshwor, Ratopul</span></p>
+                    <p class="stdfields">Parents Name : <span id="spanparentsname">Santosh Dahal</span></p>
+                    <p class="stdfields">DOB : <span id="spandob">11/03/2068</span></p>
+                    <p class="stdfields">S-Email : <span id="spanemail">neeswebservices@gmail.com</span></p>
+                    <p class="stdfields">Contact No : <span id="spancontact">98124121221</span></p>
+                </div>
+            </div>
+            <div class="footer-card">
+                <p class="url"> URL : https://neeswebservices.business.site</p>
+                <p class="collegecontact"> Contact No : 012412412,12412324</p>
+            </div>
+        </div>
+
+        <div class="others">
+            <button class="btn" id="btn">download as .png</button>
+        </div>
+
+    </div>
+    <!-- <button class="btn" id="btn">click to download image</button> -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/g/filesaver.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

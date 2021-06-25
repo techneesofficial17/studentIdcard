@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #136bf0;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+form {
+  margin: 0 50px;
+  background: #01317b;
+  width: 500px;
+  height: auto;
+  padding: 30px;
+  border-radius: 7px;
+}
+
+form .title {
+  color: white;
+  letter-spacing: 1px;
+}
+
+form .field {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+form .field input {
+  font-size: 18px;
+  width: 100%;
+  padding: 2px 15px 2px 30px;
+  outline: none;
+  border-radius: 9px;
+  border: none;
+  border: 2px solid white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+form .field input::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+form .field input:focus {
+  border-color: #0077ff;
+}
+
+form .field i {
+  color: #136bf0;
+  position: absolute;
+  left: 7px;
+}
+
+form .field .alt-img {
+  color: white;
+  display: inline-block;
+  width: 300px;
+  padding-left: 10px;
+  margin-left: 30px;
+}
+
+form .field .altimage {
+  font-size: 19px;
+  color: white;
+}
+
+form .field #image {
+  font-size: 10px;
+  outline: none;
+  border: none;
+}
+
+form .field .submit {
+  width: 100%;
+  border-radius: 9px;
+  outline: none;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #083fc9;
+  padding: 5px 0px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+form .field .submit:hover {
+  background: #136bf0;
+}
+
+form .bloodgroup .bloodgroup-select {
+  font-size: 15px;
+  background: white;
+  padding: 2px 5px 1px 30px;
+}
+
+form .bloodgroup .bloodgroup-selection {
+  font-size: 15px;
+  outline: none;
+  padding: 1px;
+}
+
+.idCard {
+  border-radius: 9px;
+  background: white;
+  overflow: hidden;
+  border: 2px solid #682be4;
+  margin-bottom: 10px;
+}
+
+.idCard .title-texts {
+  padding: 2px 0;
+  background: #682be4;
+  text-align: center;
+}
+
+.idCard .title-texts h2 {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.idCard .title-texts h5,
+.idCard .title-texts h4 {
+  color: #26bd00;
+}
+
+.idCard .title-texts .idcard {
+  background: #5316cc;
+  color: white;
+}
+
+.idCard .imageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.idCard .imageContainer img {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border: 2px solid purple;
+  background-position: center;
+  background-size: cover;
+}
+
+.idCard .student-info {
+  padding: 2px 2px 2px 10px;
+}
+
+.idCard .student-info p {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.idCard .student-info p span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.idCard .student-info .row-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 30px 0 0;
+}
+
+.idCard .footer-card {
+  background: royalblue;
+  text-align: center;
+  color: white;
+}
+
+.idCard .footer-card .url {
+  font-size: 13px;
+  font-weight: 550;
+}
+
+.others .btn {
+  padding: 3px 10px;
+  outline: none;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.others .btn:hover {
+  color: #136bf0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
